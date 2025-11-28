@@ -9,13 +9,13 @@ concepts.
 ## 🚀 Features
 
 -   🔍 **Port Scanning (1--5000)** --- Automatically scans a wide range
-    of ports\
+    of ports
 -   🧩 **Service & Version Detection** --- Identifies running services
-    and their versions\
+    and their versions
 -   📄 **JSON-Style Structured Output** --- Clean, readable results for
-    analysis or logging\
+    analysis or logging
 -   ⚙️ **Automated Enumeration** --- Loops through port ranges
-    efficiently\
+    efficiently
 -   🛡️ **Safe for Learning & Defensive Use** --- Intended for approved
     systems only
 
