@@ -61,7 +61,7 @@ Use it **only on systems you own or have explicit permission to scan**.
 
 ## 📘 What I Learned
 
--   Network port states and service enumeration\
--   Automating recon workflows with Python\
--   JSON-style data structuring for readable output\
+-   Network port states and service enumeration
+-   Automating recon workflows with Python
+-   JSON-style data structuring for readable output
 -   Practical defensive security concepts and auditing techniques
