@@ -6,27 +6,27 @@ This project automates safe network reconnaissance tasks commonly used
 in defensive security, system auditing, and learning core networking
 concepts.
 
-## 🚀 Features
+## Features
 
--   🔍 **Port Scanning (1--5000)** --- Automatically scans a wide range
+-   **Port Scanning (1--5000)** --- Automatically scans a wide range
     of ports
--   🧩 **Service & Version Detection** --- Identifies running services
+-   **Service & Version Detection** --- Identifies running services
     and their versions
--   📄 **JSON-Style Structured Output** --- Clean, readable results for
+-   **JSON-Style Structured Output** --- Clean, readable results for
     analysis or logging
--   ⚙️ **Automated Enumeration** --- Loops through port ranges
+-   **Automated Enumeration** --- Loops through port ranges
     efficiently
--   🛡️ **Safe for Learning & Defensive Use** --- Intended for approved
+-   **Safe for Learning & Defensive Use** --- Intended for approved
     systems only
 
-## 📂 Project Structure
+## Project Structure
 
     /project
     │── scanner.py        # Main port-scanning script
     │── requirements.txt  # python-nmap dependency
     │── README.md
 
-## 🧠 How It Works
+## How It Works
 
 1.  The script uses the `python-nmap` wrapper to interface with the Nmap
     engine.\
@@ -38,7 +38,7 @@ concepts.
     -   Version info (when available)\
 4.  Results are formatted into clean, JSON-style output.
 
-## ▶️ Usage
+## Usage
 
 ### 1. Install dependencies
 
@@ -54,12 +54,12 @@ python scanner.py
 
 You will be prompted for a target IP or hostname.
 
-## ⚠️ Important Note
+## Important Note
 
 This tool is for **educational and defensive security purposes only**.\
 Use it **only on systems you own or have explicit permission to scan**.
 
-## 📘 What I Learned
+## What I Learned
 
 -   Network port states and service enumeration
 -   Automating recon workflows with Python
