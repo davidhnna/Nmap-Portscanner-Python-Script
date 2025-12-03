@@ -2,7 +2,7 @@ import nmap
 
 def scan_target(target):
     scanner = nmap.PortScanner()
-    print(f"\n🔍 Starting scan on: {target}\n")
+    print(f"\n Starting scan on: {target}\n")
 
     # Run service + version detection on ports 1–5000
     scanner.scan(target, '1-5000', '-sV')
@@ -34,3 +34,4 @@ def scan_target(target):
 
 if __name__ == "__main__":
     scan_target("scanme.nmap.org")
+
