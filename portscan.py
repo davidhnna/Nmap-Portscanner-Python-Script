@@ -33,5 +33,6 @@ def scan_target(target):
         print("-" * 70)
 
 if __name__ == "__main__":
-    scan_target("scanme.nmap.org")
+    target = input("Enter the host or IP to scan: ").strip()
+    scan_target(target)
 
